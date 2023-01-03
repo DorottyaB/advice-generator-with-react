@@ -22,7 +22,6 @@ function App() {
 
   useEffect(() => {
     getAdvice();
-    console.log(advice);
   }, []);
 
   return (
